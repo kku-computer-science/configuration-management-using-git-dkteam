@@ -1,46 +1,38 @@
-# Team Workflow
+กระบวนการทำงานของทีม
 
-## Team Members
-1. Nitiphum (6033) – Quick Sort (Python)
-2. Kittipot (5891) – Bubble Soer (Python)
+สมาชิกในทีม
+นิธิภูมิ (6033) – Quick Sort (Python)
+กิตติพศ (5891) – Bubble Sort (Python)
 
-## Branch Strategy
-- main: Stable production branch (no direct commits)
-- Nitiphum_6033: Feature branch for Nitiphum
-- Kittipot_5891: Feature branch for Kittipot
+กลยุทธ์การใช้ Branch
+main: branch สำหรับการผลิตที่เสถียร (ไม่มีการ commit โดยตรง)
+Nitiphum_6033: branch สำหรับนิธิภูมิ
+Kittipot_5891: branch สำหรับกิตติพศ
 
-## Workflow Steps
+ขั้นตอนกระบวนการทำงาน
 
-### 1. Clone the team repository
-Each member clones the same GitHub Classroom repository.
+1. Clone repository ของทีม
+   สมาชิกในทีมทุกคนต้องทำการ clone repository จาก GitHub Classroom มายังเครื่องของตัวเอง
 
-### 2. Create Your Own Feature Branch
-Each member creates a branch named:
-- Nitiphum_6033
-- Kittipot_5891
+2. สร้าง Branch ของตัวเอง
+   สมาชิกในทีมจะสร้าง branch สำหรับตัวเองโดยใช้ชื่อว่า:
+    Nitiphum_6033
+     Kittipot_5891
 
-### 3. Work Inside Your Branch Only
-All source code must be inside the **Project/** folder.
+3. ทำงานภายใน Branch ของตัวเองเท่านั้น
+   โค้ดทั้งหมดต้องถูกเก็บในโฟลเดอร์ Project/ ของ repository นี้
 
-### 4. Commit and Push Changes
-Each member commits only to their own branch.
+4. Commit และ Push การเปลี่ยนแปลง
+   สมาชิกในทีมจะ commit เฉพาะใน branch ของตัวเองเท่านั้น
 
-### 5. Create Pull Request (PR)
-When the work is ready, create a PR from your branch → main.
+5. สร้าง Pull Request (PR)
+   เมื่อการทำงานเสร็จสมบูรณ์แล้ว ให้สร้าง Pull Request จาก branch ของตัวเองไปยัง main
 
-### 6. Code Review
-Team members review each other's work.
-Fix issues if needed.
+6. รีวิวโค้ด
+   สมาชิกในทีมทุกคนจะช่วยกันรีวิวโค้ดของกันและกัน และแก้ไขข้อผิดพลาดถ้าจำเป็น
 
-### 7. Merge to main
-After approval, merge to main.
+7. Merge เข้าสู่ main
+   เมื่อโค้ดผ่านการรีวิวและได้รับการอนุมัติแล้ว ให้ทำการ merge เข้า main
 
-### 8. Resolve Conflicts Together
-If conflicts occur during merge, the team works together to fix them.
-
----
-
-## Hotfix Workflow (Optional)
-If a bug is detected in main, create a branch:
-hotfix-<version>
-Then fix the issue and merge back.
+8. แก้ไข Conflict ร่วมกัน
+   ถ้ามี conflict เกิดขึ้นในระหว่างการ merge ทีมจะช่วยกันแก้ไขปัญหาเหล่านั้น
