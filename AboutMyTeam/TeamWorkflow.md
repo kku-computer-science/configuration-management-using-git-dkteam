@@ -1,7 +1,7 @@
 กระบวนการทำงานของทีม
 
 สมาชิกในทีม
-นิธิภูมิ (6033) – Quick Sort (Python)
+นิติภูมิ (6033) – Quick Sort (Python)
 กิตติพศ (5891) – Bubble Sort (Python)
 
 กลยุทธ์การใช้ Branch
