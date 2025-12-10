@@ -2,7 +2,7 @@
 
 ## Team Members
 1. Nitiphum (6033) – Quick Sort (Python)
-2. Kittipot (5891) – Sorting Feature
+2. Kittipot (5891) – Bubble Soer (Python)
 
 ## Branch Strategy
 - main: Stable production branch (no direct commits)
